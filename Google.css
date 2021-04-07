@@ -23,7 +23,7 @@ nav.right-nav {
 
 i.fa-bars {
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
   padding-left: 10px;
 }
 
@@ -36,7 +36,7 @@ i.fa-th {
 h6.all,
 h6.images {
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
@@ -53,7 +53,7 @@ h6.all {
 i.fa-th {
   position: relative;
   left: 50px;
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 20px;
 }
 
@@ -61,6 +61,7 @@ img.prof-pic {
   width: 40px;
   border-radius: 50%;
   margin-right: 10px;
+  margin-top: 5px;
 }
 
 img.logo {
