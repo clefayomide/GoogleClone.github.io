@@ -169,6 +169,9 @@ div > a {
 @media (max-width: 450px) {
   .container {
     display: block;
+  }
+  
+  input.search-box {
     width: 98%;
   }
 }
