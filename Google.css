@@ -160,6 +160,10 @@ div > a {
   .container {
     display: none;
   }
+  
+  input.search-box {
+    width: 50%;
+  }
 }
 
 @media (max-width: 450px) {
