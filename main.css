@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+header.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.left-nav,
+nav.right-nav {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+i.fa-bars {
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+i.fa-bars,
+h6.images,
+i.fa-th {
+  color: dimgrey;
+}
+
+h6.all,
+h6.images {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+h6.all {
+  color: royalblue;
+  border-bottom: 2px solid royalblue;
+}
+
+/*h3.images {
+  border: 3px solid red;
+}*/
+
+i.fa-th {
+  position: relative;
+  left: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+img.prof-pic {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+img.logo {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: block;
+}
+
+input.search-box {
+  width: 98%;
+  height: 45px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+}
+
+i.fa-search {
+  position: relative;
+  bottom: 30px;
+  left: 15px;
+  font-size: 20px;
+  color: grey;
+}
+
+i.fa-microphone {
+  position: relative;
+  bottom: 32px;
+  left: 269px;
+  font-size: 20px;
+  color: grey;
+}
+
+p.paragraph {
+  margin-top: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+p.offer-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+a.hausa,
+a.ede-yoruba,
+a.igbo,
+a.nigerian-pidgin {
+  font-size: 13px;
+  padding: 5px;
+  text-decoration: none;
+  color: royalblue;
+}
+
+footer.footer {
+  margin-top: 100px;
+  background-color: whitesmoke;
+}
+
+p.nigeria {
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: grey;
+}
+
+nav.footer-nav-top {
+  border-top: 1px solid darkgray;
+}
+
+nav.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  
+}
+
+div.settings,
+div.privacy,
+div.terms,
+div.advertising,
+div.business,
+div.about {
+padding: 10px;
+color: grey;
+}
+
+div > a {
+  color: grey;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: none;
+  }   
+}
+
+@media (max-width: 450px) {
+  .container {
+    display: block;
+  }
+}
