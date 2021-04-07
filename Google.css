@@ -159,7 +159,11 @@ div > a {
 @media (max-width: 768px) {
   .container {
     display: none;
-  }   
+  }
+  
+  input.search-box {
+    width: 50%;
+  }
 }
 
 @media (max-width: 450px) {
