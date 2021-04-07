@@ -170,4 +170,8 @@ div > a {
   .container {
     display: block;
   }
+  
+  input.search-box {
+    width: 98%;
+  }
 }
