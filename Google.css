@@ -156,6 +156,12 @@ div > a {
   text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     display: none;
