@@ -3,4 +3,4 @@
 
 live link: https://clefayomide.github.io/GoogleClone.github.io/
 
-This is an individual task submitted to ingressive4Good @theZuriTeam internship program
+This is an individual task submitted to ingressive4Good @theZuriTeam internship program. we were asked to recreate the Google home page and this is my submission.
